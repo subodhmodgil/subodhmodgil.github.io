@@ -322,6 +322,10 @@ header {
     margin-bottom: 4em;
 }
 
+.services h4 {
+    color: var(--clr-accent);
+}
+
 .service {
     max-width: 500px;
     margin: 0 auto;
@@ -340,6 +344,13 @@ header {
     }
 }
 
+@media screen and (max-width: 799px) {
+    .service {
+        border: 5px double #7610f7;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
 
 .about-me {
     max-width: 1000px;
@@ -397,13 +408,14 @@ header {
 
 .portfolio__item {
     /* background: var(--clr-accent); */
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
 }
 
 .portfolio__img {
+    border-radius: 30px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
