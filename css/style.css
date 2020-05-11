@@ -371,7 +371,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/laptop-desk.jpg);
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
     color: var(--clr-light);
     text-align: center;
 }
