@@ -591,19 +591,21 @@ header {
 .proj-wip {
     margin: auto;
     background-size: cover;
-    background-color: #c0ddef;
+    /* background-color: #c0ddef; */
 }
 
 .proj-wip img {
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 40vh;
+    border-radius: 25px;
 }
 
 .proj-head {
-    padding: 1.9em;
+    padding: 90px 20px 40px 20px;
 }
 
-.proj-img-style {
-    width: -webkit-fill-available;
+.page-style {
+    background-color: #c0ddef;
 }
