@@ -187,6 +187,10 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-reg);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .section__title--intro strong {
     display: block;
 }
@@ -488,6 +492,8 @@ header {
 }
 
 .portfolio__img {
+    width: 50%;
+    min-height: 125px;
     border-radius: 30px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
@@ -514,7 +520,6 @@ header {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-
 }
 
 .footer a { 
@@ -577,7 +582,28 @@ header {
 }
 
 .portfolio-item-individual img {
-    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Project in Progress */
+
+.proj-wip {
+    margin: auto;
+    background-size: cover;
+    background-color: #c0ddef;
+}
+
+.proj-wip img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.proj-head {
+    padding-top: 2.7em;
+}
+
+.proj-img-style {
+    width: -webkit-fill-available;
 }
