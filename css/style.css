@@ -557,6 +557,7 @@ header {
 }
 
 /* Individual portfolio item style */
+
 .portfolio__item-individual {
     padding: 0 2em 2em;
     max-width: 1000px;
@@ -588,24 +589,22 @@ header {
 
 /* Project in Progress */
 
-.proj-wip {
-    margin: auto;
-    background-size: cover;
-    /* background-color: #c0ddef; */
+.proj__wip__container {
+    position: relative;
+    text-align: center;
 }
 
-.proj-wip img {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40vh;
-    border-radius: 25px;
+.proj__wip__container img {
+    width: 100%;
+    padding: 30px;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
 }
 
-.proj-head {
-    padding: 90px 20px 40px 20px;
-}
-
-.page-style {
-    background-color: #c0ddef;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
 }
