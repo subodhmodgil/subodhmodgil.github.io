@@ -557,7 +557,7 @@ header {
 }
 
 .footer__label {
-    color: ivory;
+    color: ivory !important;
 }
 
 /* Individual portfolio item style */
