@@ -556,6 +556,10 @@ header {
     padding: .5em;
 }
 
+.footer__label {
+    color: ivory;
+}
+
 /* Individual portfolio item style */
 
 .portfolio__item-individual {
