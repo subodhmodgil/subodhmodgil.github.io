@@ -423,9 +423,9 @@ header {
 
 @media screen and (max-width: 799px) {
     .service {
-        border: 5px double #7610f7;
+        border: 2px solid #cd5c5c;
         margin-bottom: 20px;
-        padding: 10px;
+        padding: 25px;
     }
 }
 
