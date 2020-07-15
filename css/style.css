@@ -343,19 +343,19 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: 
+        grid-template-areas:
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
     }
-    
+
     .intro__img {
         grid-area: img;
         min-width: 200px;
         position: relative;
         z-index: 2;
-    }    
-    
+    }
+
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
@@ -415,7 +415,7 @@ header {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .service + .service {
         margin-left: 2em;
     }
@@ -442,17 +442,17 @@ header {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: 
+        grid-template-areas:
             "title img"
             "subtitle img"
             "text img";
         grid-column-gap: 2em;
     }
-    
+
     .section__title--about {
         grid-area: title;
     }
-    
+
     .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
@@ -462,7 +462,7 @@ header {
         padding-left: 1em;
         padding-right: calc(200px + 4em);
     }
-    
+
     .about-me__img {
         grid-area: img;
         position: relative;
@@ -475,7 +475,7 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center;
 }
 
 .portfolio {
@@ -495,7 +495,7 @@ header {
     width: 50%;
     min-height: 125px;
     border-radius: 30px;
-    transition: 
+    transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
 }
@@ -522,7 +522,7 @@ header {
     font-size: var(--fs-h3);
 }
 
-.footer a { 
+.footer a {
     color: inherit;
     text-decoration: none;
 }
